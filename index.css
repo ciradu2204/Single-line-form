@@ -1,0 +1,48 @@
+html, body{
+    margin: 0;
+    padding: 0;
+
+}
+ 
+
+.cover{
+    background: url(Video/Coverr-Lulu.jpg) 0 0 no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flex-form > *{
+    padding: 10px;
+    background: white;
+    line-height: 50px;
+    font-size: 20px;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+ 
+.flex-form> *:last-child{
+    border-right: 0;
+}
+
+.flex-form{
+    display: flex;
+    border: 20px solid rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+input[type="search"]{
+    flex-basis: 600px;
+  
+ 
+}
+
+input[type="submit"]{
+    background: orange;
+ 
+}
+
+
+ 
